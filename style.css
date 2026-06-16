@@ -1,1 +1,27 @@
+  /* changes the background colour to palegreen */
   body {background-color: palegreen;}
+  body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Configure the header container */
+.right-header {
+    display: flex;
+    justify-content: flex-end; /* Pushes content to the right */
+    background-color: #333;     /* Dark background color */
+    color: green;               /* green text color */
+    padding: 10px 20px;         /* Padding inside the header */
+}
+
+.right-header h1 {
+    margin: 0;                  /* Removes default heading spacing */
+}
+
+h1 {
+  text-align: center; /* putting the title in the middle of the page */
+}
+
+p{
+  text-align: center;  /* putting the sentence/slogan in the middle of the page */
+}
