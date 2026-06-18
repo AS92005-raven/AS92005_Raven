@@ -1,27 +1,35 @@
-  /* changes the background colour to palegreen */
-  body {background-color: palegreen;}
-  body {
-    margin: 0;
-    padding: 0;
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Configure the header container */
-.right-header {
-    display: flex;
-    justify-content: flex-end; /* Pushes content to the right */
-    background-color: #333;     /* Dark background color */
-    color: green;               /* green text color */
-    padding: 10px 20px;         /* Padding inside the header */
+
+:root {
+   --bg-color: #b3c68f;       /* Earthy sage green */
+   --dark-green: #0a2417;     /* Deep footer/text color */
+   --accent-dark: #000000;
+   --card-white: #ffffff;
+   --text-muted: #4a5d4e;
 }
 
-.right-header h1 {
-    margin: 0;                  /* Removes default heading spacing */
+
+body {
+   background-color: var(--bg-color);
+   color: var(--dark-green);
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
 }
 
-h1 {
-  text-align: center; /* putting the title in the middle of the page */
-}
 
-p{
-  text-align: center;  /* putting the sentence/slogan in the middle of the page */
+/* --- NAVBAR  --- */
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 5%;
+   background-color: transparent;
 }
