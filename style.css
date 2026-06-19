@@ -33,3 +33,24 @@ body {
    padding: 15px 5%;
    background-color: transparent;
 }
+.logo {
+   font-weight: bold;
+   font-size: 1.2rem;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+
+
+.nav-links {
+   display: flex;
+   gap: 15px;
+}
+
+
+.nav-item {
+   text-decoration: none;
+   color: var(--dark-green);
+   background-color: #cbdcb0;
+   padding: 6px 16px;
+   border-radius: 20px;
