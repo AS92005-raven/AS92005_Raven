@@ -102,8 +102,19 @@ font-size: 0.9rem;
    margin-bottom: 25px;
 }
 
-
 /* Hero Banner placeholder  */
 .hero-banner {
    width: 100%;
    height: 180px;
+
+ background: linear-gradient(135deg, #1e3514 0%, #445933 100%);
+   border-radius: 12px;
+   border: 4px solid var(--dark-green);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #e0eed0;
+   font-style: italic;
+   font-weight: bold;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
