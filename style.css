@@ -140,4 +140,30 @@ font-size: 0.9rem;
    justify-content: center;
    gap: 50px;
    margin: 40px 0;
+}
 
+.environment-homepage {
+   width:420px;
+   height:auto; /* --- so the image don't get distorted  --- */
+}
+
+.deforestation-homepage {
+   width:310px;
+   height:auto; /* --- so the image don't get distorted  --- */
+}
+
+.wastemanagement-homepage {
+   width:310px;
+   height:auto; /* --- so the image don't get distorted  --- */
+}
+
+.Industrialemissions-homepage {
+   width:305px;
+   height:auto; /* --- so the image don't get distorted  --- */
+}
+
+.Deforestation-effects {
+  float: right;
+  width:20%;
+  height:auto; /* --- so the image don't get distorted  --- */
+}
