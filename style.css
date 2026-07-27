@@ -134,6 +134,7 @@ font-size: 0.9rem;
    display: flex;
    flex-direction: center;
 }
+
 /* --- arrows  --- */
 .pagination-controls {
    display: flex;
@@ -169,7 +170,7 @@ font-size: 0.9rem;
 }
 
 .Deforestation-effects p {
-    flex= 1;
+    flex= 1;            /* it fills the empty space */
 }
 
 .Deforestation-effects img {
@@ -185,7 +186,7 @@ font-size: 0.9rem;
 }
 
 .WasteManagement-effects p {
-    flex= 1;
+    flex= 1;            /* it fills the empty space */
 }
 
 .WasteManagement-effects img {
@@ -200,10 +201,14 @@ font-size: 0.9rem;
 }
 
 .Industrialemission-effects p {
-    flex= 1;
+    flex= 1;            /* it fills the empty space */
 }
 
 .Industrialemission-effects img {
     max-width: 200px;    /* Constrains the image size */
         height: auto;    /* --- so the image don't get distorted  --- */
+}
+
+.Deforestation-fix {
+
 }
