@@ -163,7 +163,47 @@ font-size: 0.9rem;
 }
 
 .Deforestation-effects {
-  float: right;
-  width:20%;
-  height:auto; /* --- so the image don't get distorted  --- */
+   display: flex;
+   align-items: center; /* Vertically centers the text and image */
+   gap: 20px;           /* Puts space between the text and the image */
+}
+
+.Deforestation-effects p {
+    flex= 1;
+}
+
+.Deforestation-effects img {
+    max-width: 200px;    /* Constrains the image size */
+        height: auto;    /* --- so the image don't get distorted  --- */
+}
+
+.WasteManagement-effects {
+   display: flex;
+   flex-direction: row-reverse; /* Reverses the layout: image left, text right */
+   align-items: center; /* Vertically centers the text and image */
+   gap: 20px;           /* Puts space between the text and the image */
+}
+
+.WasteManagement-effects p {
+    flex= 1;
+}
+
+.WasteManagement-effects img {
+    max-width: 200px;    /* Constrains the image size */
+        height: auto;    /* --- so the image don't get distorted  --- */
+}
+
+.Industrialemission-effects{
+    display: flex;
+   align-items: center; /* Vertically centers the text and image */
+   gap: 20px;           /* Puts space between the text and the image */
+}
+
+.Industrialemission-effects p {
+    flex= 1;
+}
+
+.Industrialemission-effects img {
+    max-width: 200px;    /* Constrains the image size */
+        height: auto;    /* --- so the image don't get distorted  --- */
 }
