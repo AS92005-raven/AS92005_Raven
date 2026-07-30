@@ -135,12 +135,16 @@ font-size: 0.9rem;
    flex-direction: center;
 }
 
-/* --- arrows  --- */
-.pagination-controls {
-   display: flex;
-   justify-content: center;
-   gap: 50px;
-   margin: 40px 0;
+
+/* --- FOOTER --- */
+.site-footer {
+   background-color: var(--dark-green);
+   color: white;
+   text-align: center;
+   padding: 15px;
+   font-size: 0.9rem;
+  letter-spacing: 1px; /* Or use 0.05em */
+   margin-top: auto;
 }
 
 .environment-homepage {
