@@ -132,7 +132,7 @@ font-size: 0.9rem;
    border-radius: 8px;
    overflow: hidden;
    display: flex;
-   flex-direction: center;
+   align-items: center;
 }
 
 
@@ -174,7 +174,7 @@ font-size: 0.9rem;
 }
 
 .Deforestation-effects p {
-    flex= 1;            /* it fills the empty space */
+    flex: 1;            /* it fills the empty space */
 }
 
 .Deforestation-effects img {
@@ -190,7 +190,7 @@ font-size: 0.9rem;
 }
 
 .WasteManagement-effects p {
-    flex= 1;            /* it fills the empty space */
+    flex: 1;            /* it fills the empty space */
 }
 
 .WasteManagement-effects img {
@@ -205,7 +205,7 @@ font-size: 0.9rem;
 }
 
 .Industrialemission-effects p {
-    flex= 1;            /* it fills the empty space */
+    flex: 1;            /* it fills the empty space */
 }
 
 .Industrialemission-effects img {
